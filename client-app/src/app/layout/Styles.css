@@ -1,0 +1,220 @@
+body {
+  background-image: 
+  linear-gradient(90deg,
+  rgb(30, 1, 97) 0%, 
+   rgb(39, 0, 155) 25%,
+   rgb(49, 2, 180) 35%,
+   rgb(71, 9, 243) 45%,
+   rgb(141, 101, 252) 55%,
+   rgb(71, 9, 243) 65%,
+   rgb(42, 3, 151) 75%,
+    rgb(31, 3, 117) 85%,
+    rgb(28, 0, 94) 95%) !important;
+ font-family:Courier New,monospace;
+}
+.cont{
+  background-image: linear-gradient(180deg,
+ rgb(42, 0, 139)0%,
+ rgb(16, 0, 59) 79%,
+ #4302f7 89%) !important;
+}
+
+.ui.inverted.top.fixed.menu{
+  background-image: linear-gradient(90deg,
+  rgb(42, 0, 139)0%,
+  rgb(69, 8, 236) 79%,
+  #180157 89%) !important;
+ 
+  font-family:Courier New,monospace;
+  font-size: 15px;
+}
+
+.space{
+ 
+  margin-left:60px;
+
+}
+h1{
+  font-family:'Courier New', Courier, monospace;
+  color:white;
+  font-size: 40px;
+}
+.textcolor{
+  font-family: 'Courier New', Courier, monospace;
+  color: white;
+  font-size:20px
+}
+
+.ptextcolor{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 15px;
+  color:white;
+  margin-left:5px;
+}
+p{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 20px;
+  color:white;
+  margin-left:5px;
+}
+.buttonheader{
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.QuizCards{
+  border: 5px solid purple;
+}
+
+.QuizForm{
+  border: 5px solid black;
+  padding: 5px;
+}
+.quiztitle{
+  font-size: 20px;
+  margin-top:10px;
+  margin-left:5px;
+  font-weight:bold;
+  color:rgb(255, 255, 255);
+  position: relative;
+}
+.homepage1{
+  background-image: linear-gradient(-180deg,
+ rgb(42, 0, 139)0%,
+ rgb(16, 0, 59) 79%,
+ #4302f7 89%) !important;
+ border: 5px;
+}
+.homepage2{
+  background-image: linear-gradient(180deg,
+ rgb(42, 0, 139)0%,
+ rgb(16, 0, 59) 79%,
+ #4302f7 89%) !important;
+ border: 5px;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 200;
+  width: 370px;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: purple;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+.container {
+  position: relative;
+  width: 100%;
+}
+.image {
+  opacity: 1;
+  width: 370px;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+.formtitle{
+  margin-left:230px;
+}
+
+.QuizTitleSheet{
+  font-size: 20px;
+  margin-top:10px;
+  margin-left:5px;
+  font-weight:bold;
+  color:rgb(255, 255, 255);
+  border: 2px pink;
+  text-align: center;
+}
+#image2 {
+  height: 100px; 
+  width: 200px;
+}
+
+.QuestionOptionsButton{
+  width:100%;
+  border-radius: 12px;
+  border:4px solid rgb(87, 0, 87);
+  margin-bottom: 10px;
+  background-color: #e73be7;
+  color:rgb(255, 255, 255);
+  }
+  
+
+#appname{
+  font-weight:bolder;
+  background-image: 
+   linear-gradient(-90deg, #ff0000 0%, #f00070 ,rgb(236, 0, 59) 100%);
+  
+  background-clip: text;
+  color:transparent;
+ }
+ #segborders{
+  border-radius: 25px 0px 0px 25px;
+  border:2px purple;
+  margin-bottom: 10px;
+ 
+ }
+
+
+ #segborders2{
+  border-radius: 0px 25px 25px 0px;
+  border:2px purple;
+  margin-bottom: 10px;
+ background-color: #4302f7;
+ }
+
+ #cancelicon{
+   margin-left: 630px;
+   margin-bottom: 5px;
+ }
+
+ #quiztitle{
+  font-weight:bolder;
+  background-image: 
+   linear-gradient(180deg, #3e08ff 0%, #f0f4fa ,rgb(6, 197, 255) 100%);
+
+  background-clip: text;
+  color:transparent;
+ }
+
+ .categoriesbutton{
+  border:2px solid red;
+  width: 100%;
+ 
+ }
+
+ .scorecard{
+   text-align: center;
+   width:16;
+   align-content: center;
+   margin-bottom: 10px;
+ }
+ #canceliconscore{
+   margin-left: 600px;
+ }
+
+#cardtitle{
+ font-size: 40px;
+ }
+
+ #carddescrip{
+  font-size: 40px;
+  }
+
+
