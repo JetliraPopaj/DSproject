@@ -10,5 +10,6 @@ namespace Application.Quizzes
         public string Description {get;set;}
 
         public string Picture {get; set;}
+//d
     }
 }
